@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Section from './components/Section.tsx';
+import Header from './components/Header.tsx';
+import Subheader from './components/Subheader.tsx';
+import pageText from './pageText.json';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header header={pageText.header} />
+      <Subheader subheader={pageText.subheader} />
+      <Section section={pageText.experience} />
+      <Section section={pageText.projects} />
+    </>
   );
 }
 
