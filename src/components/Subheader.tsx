@@ -5,9 +5,9 @@ export default function Header({ subheader }) {
     return null;
   }
   return (
-    <>
+    <div>
       <p>{subheader.email}</p>
       <p>{subheader.github}</p>
-    </>
+    </div>
   );
 }

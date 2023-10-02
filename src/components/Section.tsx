@@ -1,23 +1,39 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyledDiv = styled.div`
+  div:hover {
+    background-color: #0c111c;
+    h2 {
+      color: #00D816;
+    }
+  }
+`;
+
+const StyledHeader = styled.h1`
+  color: #00D816;
+`;
 
 export default function Section({ section }) {
   if (!section) {
     return null;
   }
   return (
-    <>
-      <h1>{section.header}</h1>
+    <StyledDiv>
+      <StyledHeader>{section.header}</StyledHeader>
       {section.content
         ? section.content.map((contentObject) => (
-            <>
+          <a href={contentObject.link}>
+            <div>
               <h2>
-                <a href={contentObject.link}>{contentObject.title}</a>
+                {contentObject.title}
               </h2>
               <p>{contentObject.time}</p>
               <p>{contentObject.desc}</p>
-            </>
+            </div>
+          </a>
           ))
         : null}
-    </>
+    </StyledDiv>
   );
 }
