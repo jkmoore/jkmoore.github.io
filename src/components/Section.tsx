@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
+  white-space: pre-wrap;
+  p {
+    margin-top: 0rem;
+    line-height: 2rem;
+  }
   div:hover {
     background-color: #0c111c;
     h2 {

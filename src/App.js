@@ -2,7 +2,7 @@ import React from 'react';
 import Section from './components/Section.tsx';
 import Header from './components/Header.tsx';
 import Subheader from './components/Subheader.tsx';
-import pageText from './pageText.json';
+import { pageText } from './pageText.js';
 import { styled, ThemeProvider } from 'styled-components';
 import { createStyledBreakpointsTheme } from 'styled-breakpoints';
 
@@ -50,13 +50,17 @@ const StyledDiv = styled.div`
 //320 to 2000px or so
 
 function App() {
+  const pageTextObj = JSON.parse(pageText);
+  if (!pageTextObj) {
+    return;
+  }
   return (
     <ThemeProvider theme={theme}>
     <StyledDiv>
-      <Header header={pageText.header} />
-      <Subheader subheader={pageText.subheader} />
-      <Section section={pageText.experience} />
-      <Section section={pageText.projects} />
+      <Header header={pageTextObj.header} />
+      <Subheader subheader={pageTextObj.subheader} />
+      <Section section={pageTextObj.experience} />
+      <Section section={pageTextObj.projects} />
     </StyledDiv>
     </ThemeProvider>
   );
