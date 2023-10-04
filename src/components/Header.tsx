@@ -1,13 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-
-const StyledHeader = styled.h1`
-  font-weight: 700;
-`;
-
-const StyledHeaderDesc = styled.h2`
-  font-weight: 700;
-`;
 
 export default function Header({ header }) {
   if (!header) {
@@ -15,8 +6,8 @@ export default function Header({ header }) {
   }
   return (
     <div>
-      <StyledHeader>{header.greeting}</StyledHeader>
-      <StyledHeaderDesc>{header.desc}</StyledHeaderDesc>
+      <h1>{header.greeting}</h1>
+      <h2>{header.desc}</h2>
     </div>
   );
 }
