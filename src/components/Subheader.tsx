@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
+  a {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   a:hover {
     color: #00D816;
   }
