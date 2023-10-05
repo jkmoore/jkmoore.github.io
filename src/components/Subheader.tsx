@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
   }
 `;
 
-export default function Header({ subheader }) {
+export default function Subheader({ subheader }) {
   if (!subheader) {
     return null;
   }
