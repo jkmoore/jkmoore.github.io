@@ -28,11 +28,9 @@ export default function Section({ section }) {
       <StyledHeader>{section.header}</StyledHeader>
       {section.content
         ? section.content.map((contentObject) => (
-          <a href={contentObject.link}>
+          <a href={contentObject.link} key={contentObject.title}>
             <div>
-              <h2>
-                {contentObject.title}
-              </h2>
+              <h2>{contentObject.title}</h2>
               <p>{contentObject.time}</p>
               <p>{contentObject.desc}</p>
             </div>
