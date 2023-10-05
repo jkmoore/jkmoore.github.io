@@ -5,6 +5,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 4rem;
+  ::selection {
+    color: #121827;
+    background: #00D816;
+  }
 }
 
 a {
