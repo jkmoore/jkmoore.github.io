@@ -4,7 +4,9 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
   ::selection {
     color: #121827;
     background: #00D816;

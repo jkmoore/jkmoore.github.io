@@ -17,6 +17,9 @@ const StyledDiv = styled.div`
       max-width: 16rem;
       font-size: 0.75rem;
     }
+    div > p {
+      line-height: 1.5rem;
+    }
   }
   ${({ theme }) => theme.breakpoints.between('sm', 'md')} {
     div {
