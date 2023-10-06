@@ -35,8 +35,8 @@ export const pageText = `{
     "content": [
       {
         "title": "jkmoore.github.io",
-        "link": "http://jkmoore.github.io",
-        "time": "Sep 2023",
+        "link": "https://github.com/jkmoore/jkmoore.github.io",
+        "time": "Oct 2023",
         "desc": "My online portfolio. React, styled-components."
       }
     ]
