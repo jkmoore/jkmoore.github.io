@@ -5,6 +5,7 @@ const StyledDiv = styled.div`
   a {
     margin-top: 0rem;
     margin-bottom: 0rem;
+    width: max-content;
   }
   a:hover {
     color: #00D816;
