@@ -49,8 +49,6 @@ const StyledDiv = styled.div`
     margin-block-start: 1em;
   }
 `;
-//TODO change line 14 width value for different breakpoints so you can use devices
-//320 to 2000px or so
 
 function App() {
   const pageTextObj = JSON.parse(pageText);
