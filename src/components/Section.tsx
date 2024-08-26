@@ -15,6 +15,10 @@ const StyledDiv = styled.div`
   }
 `;
 
+const StackText = styled.p`
+  color: lightgrey;
+`;
+
 const StyledHeader = styled.h1`
   color: #00D816;
 `;
@@ -33,6 +37,7 @@ export default function Section({ section }) {
               <h2>{contentObject.title}</h2>
               <p>{contentObject.time}</p>
               <p>{contentObject.desc}</p>
+              {contentObject.stack && <StackText>{contentObject.stack}</StackText>}
             </div>
           </a>
           ))
