@@ -14,8 +14,8 @@ export const pageText = `{
         "title": "Software Engineer at Rakuten",
         "link": "https://global.rakuten.com/corp/",
         "time": "Apr 2022 - Present",
-        "desc": "Developing and enhancing Rakuten Mobile's phone plan customer portal, focusing on frontend improvements, bug fixes, and new features. Managing operations tasks including monitoring, incident triages, and sanity testing for the portal and related apps. Previously contributed to a low-code app builder, gaining foundational frontend and backend experience.",
-        "stack": "React, TypeScript, JavaScript, CSS, HTML, Git, Angular, NestJS"
+        "desc": "Developing and maintaining the UI and API for Rakuten's internal ad delivery platform used company-wide across multiple services. Building new features, fixing bugs, and refactoring with React (TypeScript) and Golang. Collaborating in a small, focused team of developers and QA to deliver performant, reliable, and maintainable software.",
+        "stack": "React, TypeScript, JavaScript, Go, CSS, HTML, Git"
       },
       {
         "title": "Bilingual Programming & Robotics Instructor at ROBBO",
