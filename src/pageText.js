@@ -14,8 +14,8 @@ export const pageText = `{
         "title": "Software Engineer at Rakuten",
         "link": "https://global.rakuten.com/corp/",
         "time": "Apr 2022 - Present",
-        "desc": "Developing and maintaining the UI and API for Rakuten's internal ad delivery platform used company-wide across multiple services. Building new features, fixing bugs, and refactoring with React (TypeScript) and Golang. Collaborating in a small, focused team of developers and QA to deliver performant, reliable, and maintainable software.",
-        "stack": "React, TypeScript, JavaScript, Go, CSS, HTML, Git"
+        "desc": "Developing and maintaining the UI and API for Rakuten’s internal ad delivery platform used company-wide across multiple services. Building new features, fixing bugs, and refactoring with React (TypeScript) and Golang. Writing and maintaining UI tests with Jest and React Testing Library. Collaborating in a small, focused team of developers and QA to deliver performant, reliable, and maintainable software.",
+        "stack": "React, TypeScript, Go, Jest, React Testing Library, Tailwind CSS, Git"
       },
       {
         "title": "Bilingual Programming & Robotics Instructor at ROBBO",
